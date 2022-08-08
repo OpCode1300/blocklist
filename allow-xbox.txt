@@ -1,3 +1,15 @@
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+# Xbox Live sign-ins, creating new accounts, and recovering existing Microsoft accounts on your (confirmed by Microsoft)
+@@||clientconfig.passport.net 
+
+# Xbox Live Achievements (confirmed by Microsoft)
+@@||v10.events.data.microsoft.com
+@@||v20.events.data.microsoft.com
+
+# Xbox Live Messaging (post)
+@@||client-s.gateway.messenger.live.com
+
+# Full Functionality
 @@||xbox.ipv6.microsoft.com
 @@||device.auth.xboxlive.com
 @@||www.msftncsi.com
@@ -17,6 +29,4 @@
 @@||eds.xboxlive.com
 @@||www.xboxlive.com
 @@||v10.vortex-win.data.microsoft.com
-@@||v10.events.data.microsoft.com
-@@||v20.events.data.microsoft.com
 @@||settings-win.data.microsoft.com
